@@ -1,0 +1,40 @@
+body{
+    font-family: Nunito sans;
+    
+}
+h1{
+    color: rgb(0, 300, 0);
+    text-align: Center;
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top:0;
+    left:0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.divider-content-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #999;
+}
+.btn{
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.btn i {
+    vertical-align: text-bottom;
+}
